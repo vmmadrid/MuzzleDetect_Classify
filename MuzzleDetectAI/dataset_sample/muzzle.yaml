@@ -1,0 +1,13 @@
+# Number of classes
+nc: 1
+
+# Class names
+names: ['muzzle']  # replace with your class names
+
+# Training and validation folders
+train:
+  - .\fold1
+  - .\fold2
+  - .\fold3
+  - .\fold4
+val: .\fold5  # single validation folder
